@@ -10,3 +10,71 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+* {
+  font-family: 'Open-Sans', sans-serif;
+  color: #2B4E80;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.picker {
+  display: flex;
+  flex-flow: column;
+  width: 35%;
+  background: #E6ECF4;
+  justify-content: center;
+}
+
+.form-box {
+  width: 100%;
+}
+
+.form {
+  display: block;
+  height: 35px;
+  margin: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 95%;
+}
+
+.button {
+  margin: auto 10px;
+  padding: 12px;
+  font-size: 16px;
+  color: #FFF;
+  background-color: #2B4E80;
+  width: 96%;
+}
+
+.eight-ball {
+  align-self: center;
+  height: 110px;
+  width: 110px;
+  margin: 30px 0px;
+}
+
+.clear {
+  padding: 10px 25px;
+  justify-content: flex-end;
+  align-self: flex-end;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.woody {
+  height: 300px;
+  margin-left: 125px;
+}
