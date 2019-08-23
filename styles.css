@@ -31,22 +31,19 @@ h1 {
 .picker {
   display: flex;
   flex-flow: column;
-  width: 35%;
+  width: 40%;
   background: #E6ECF4;
   justify-content: center;
+  text-align: center;
 }
 
-.form-box {
-  width: 100%;
-}
 
 .form {
-  display: block;
   height: 35px;
   margin: 5px 10px;
   font-size: 16px;
   text-align: center;
-  width: 95%;
+  width: 93%;
 }
 
 .button {
@@ -55,14 +52,18 @@ h1 {
   font-size: 16px;
   color: #FFF;
   background-color: #2B4E80;
-  width: 96%;
+  width: 95%;
+}
+
+.button:hover {
+  background: #1C3455;
 }
 
 .eight-ball {
   align-self: center;
   height: 110px;
   width: 110px;
-  margin: 30px 0px;
+  margin: 75px 0px;
 }
 
 .clear {
@@ -75,6 +76,26 @@ h1 {
 }
 
 .woody {
-  height: 300px;
+  height: 420px;
   margin-left: 125px;
 }
+
+.hide {
+  display: none;
+}
+
+.user-input-view {
+  font-style: italic;
+  color: #000;
+  display: block;
+  margin: 100px 0 10px 0;
+}
+
+.random-quote {
+  color: #000;
+  margin-bottom: 75px;
+}
+
+.quote-state-hide {
+  display: none;
+ }

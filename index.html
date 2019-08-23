@@ -14,14 +14,18 @@
     <section class="picker">
       <div class="form-box">
         <form>
-          <input class="form" type="text" value="Ask your question here!">
+          <input class="form" type="text" onfocus="this.value=''" value="Ask your question here!">
 
           </input>
           <button class="button" type="reset">Get your answer</button>
         </form>
       </div>
-          <img class="eight-ball" src="./assets/eight-ball.png" alt="Image of eight-ball">
-          <button class="clear">Clear</button>
+      <img class="eight-ball" src="./assets/eight-ball.png" alt="Image of eight-ball">
+      <div class="quote-state quote-state-hide">
+        <span class="user-input-view"></span>
+        <h3 class="random-quote"></h3>
+      </div>
+      <button class="clear">Clear</button>
     </section>
     <section class="img">
       <img class="woody" src="./assets/woody.png" alt="Image of Woody">
